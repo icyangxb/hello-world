@@ -1,3 +1,7 @@
+/**********************************************************/
+/* FileName: test.cpp                                     */
+/**********************************************************/
+
 #include <iostream>
 
 void f1(struct fred_t *p)
@@ -33,4 +37,10 @@ void f3(int a)
 
     // if a is not 1 then p is NULL
     p->x = 0;
+}
+
+int main() 
+{
+    //TODO
+    return 0;
 }
